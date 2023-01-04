@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.screen{
+  width: 100vw;
+  height: 100vh;
+
+  background: #983479;
+
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width:768px) {
+  /* Se quise algo responsivo, é só adicionar a classe aqui e adicionar {width:100%;} */
+}
+
+
+
+
+
+/* Alguns exemplos =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+min-height: 400px; ------ começa com 400pxs mas se o conteudo da página for maior que isso, continua crescendo
+flex-wrap: wrap; -------- Se não tiver espaço horizontal na página o elemento cai pra baixo */

@@ -1,0 +1,14 @@
+.post{
+   width: 100%;
+   min-height: 212px;
+
+   padding: 42px 48px 35px 48px;
+
+   border-bottom: 0.8px solid var(--border);
+
+   transition: 0.2s;   
+}
+
+.post:hover{
+   background: var(--post_hover);
+}

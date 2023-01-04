@@ -1,0 +1,8 @@
+.leftMenu{
+   width: 400px;
+   height: 100%;
+ 
+   background: var(--white);
+
+   border-right: 0.8px solid var(--border);
+ }
